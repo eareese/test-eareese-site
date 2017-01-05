@@ -1,0 +1,63 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* font-family: Georgia, Times, serif; */
+}
+@media (min-width: 32em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    background: #eee;
+    color: #111;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.pagetitle {
+    color: #444;
+    font-family: 'Bitter', Georgia, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    text-shadow:
+    -1px 0px 1px #ccc, -0px 1px 1px #eee,
+    -2px 1px 1px #ccc, -1px 2px 1px #eee,
+    -3px 2px 1px #ccc, -2px 3px 1px #eee,
+    -4px 3px 1px #ccc, -3px 4px 1px #eee,
+    -5px 4px 1px #ccc, -4px 5px 1px #eee,
+    -6px 5px 1px #ccc;
+    text-transform: uppercase;
+}
+@media (min-width: 24em) {
+    .pagetitle {
+        font-size: 2.5rem;
+    }
+}
+
+p {
+    font-weight: 300;
+}
+
+.hero-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
