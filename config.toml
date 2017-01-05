@@ -1,0 +1,6 @@
+title = "eareese.com"
+baseurl = "eareese.com/"
+languageCode = "en-us"
+theme = "reese"
+enableEmoji = true
+publishDir = "docs"
