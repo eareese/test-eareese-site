@@ -1,5 +1,5 @@
 title = "eareese.com"
-baseurl = "eareese.github.io/test-eareese-site/"
+baseurl = "https://eareese.github.io/test-eareese-site"
 languageCode = "en-us"
 theme = "reese"
 enableEmoji = true
